@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:id="@+id/text_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#000000"-->
+<!--        android:ellipsize="end"-->
+<!--        android:marqueeRepeatLimit="marquee_forever"-->
+<!--        android:maxLines="1"-->
+<!--        android:scrollHorizontally="true"-->
+<!--        android:singleLine="true"-->
+<!--        android:text="幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例幕文本示例"-->
+<!--        android:textColor="#46FF09"-->
+<!--        android:textSize="30sp" />-->
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="367dp"
+        android:layout_height="417dp">
+
+        <TextView
+            android:id="@+id/jsonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:ellipsize="end"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:textColor="#46FF09"
+            android:textSize="30sp">
+
+        </TextView>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
